@@ -1,10 +1,12 @@
-const buttonEl = document.querySelector('button');
-const inputEl = document.querySelector('input');
-const listEl = document.querySelector('ul');
+const app = Vue.createApp({
+    data() {
+        return {
+            courseGoal: 'Finish course and learn Vue!',
+            vueLink: 'https://vuejs.org/'
+            
+        };  
+    }
 
-function addGoal() {
-    const enteredValue = inputel.value;
-    const listEl = document.createElement('li');
-    listItemeEl.textContent = enteredvalue;
-    listEl.append 
-}
+});
+
+app.mount('#user-goal');
