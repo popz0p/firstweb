@@ -18,7 +18,6 @@
         }
     }
 
-
   });
 
-  app.mount('#styling');
+  app.mount('#app');

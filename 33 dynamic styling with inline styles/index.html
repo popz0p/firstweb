@@ -14,15 +14,14 @@
   </head>
   <body>
     <header>
-      <h1>Vue Dynamic Styling</h1>
+      <h1>FriendList</h1>
     </header>
-    <section id="styling">
-      <div
-        :class="boxASelected ? 'demo active' : 'demo'"
-        @click="boxSelected('A')"
-      ></div>
-      <div class="demo"@click="boxSelected('B')"></div>
-      <div class="demo"@click="boxSelected('C')"></div>
+    <friend-contact></friend-contact>
+    <section id="app">
+      <ul>
+        <friend-contact></friend-contact>
+        <friend-contact></friend-contact>
+      </ul>::
     </section>
   </body>
 </html>
